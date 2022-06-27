@@ -1,0 +1,361 @@
+*{
+    padding:0px;   
+    margin:0px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:1em;   
+}
+:root{ 
+
+    --cor1:#2390B8; 
+    --cor2:#787878;
+    --cor3:#2B2B2B;
+    --cor4:#DEDEDE;
+    --cor5:#ffffff;
+
+}
+
+#menu{ 
+    width:100%;  
+    margin:auto;  
+    background-color:var(--cor3); 
+    border-bottom:solid 4px var(--cor1); 
+}
+
+.menu-index{ 
+    
+    width:800px;   
+    margin:auto;   
+    display:flex;  
+   
+
+
+}
+.menu-index li{ 
+    
+    display:inline-block;   
+    text-align:center;  
+    margin:auto;   
+    padding:20px;  
+    item-align:center;  
+
+
+}
+.menu-index a{ 
+    
+    text-decoration:none;   
+    color:var(--cor5);
+    font-weight: bold;   
+
+
+
+}
+.menu-index a:hover{ 
+    
+    color:var(--cor1);
+    font-weight: bold;   
+    cursor:pointer;
+
+
+}
+
+/* slide bar div */
+
+.slide-bar{ 
+    background-color:var(--cor2);  
+    width:900px;   
+    margin:auto;    
+    display:flex;   
+    padding:20px;  
+    margin-top:50px;   
+    justify-content: space-around;
+    border-radius:20px;   
+}
+
+.information{  
+   
+    padding:20px;
+
+}
+
+.information h2{ 
+
+    font-size:1.5em;  
+    padding:10px;   
+    color:var(--cor5);
+
+
+}
+
+.information h1{ 
+
+    font-size:2em;  
+    padding-left:10px;   
+    color:var(--cor5);
+     
+
+}
+.information button{ 
+
+    font-size:2em;  
+    padding:10px;  
+    font-align:center;   
+    margin-left:10px; 
+    margin-top:20px;   
+    width:300px;
+    background-color:var(--cor1);
+    color:var(--cor5);
+    border:2px solid var(--cor5); 
+    border-radius:10px;  
+    font-weight: bold;  
+
+     
+
+}.information button p{ 
+
+    display:inline; 
+
+     
+
+}
+.information button:hover{ 
+  
+    border:2px solid var(--cor1); 
+    background-color:var(--cor5);    
+    color:var(--cor1);
+    cursor:pointer;
+
+}
+.animation-index{ 
+    display:flex;
+    align-items:center; 
+    font-size:8em;
+    padding:20px;  
+    color:var(--cor1)
+}
+
+/* About  Me */
+
+.sobre{ 
+   
+    background-color:var(--cor5);  
+    width:900px;   
+    margin:auto;    
+    display:flex;   
+    padding:20px;  
+    margin-top:5px;   
+    justify-content: space-around;
+
+}
+.photo-div{ 
+
+    display:flex;
+    align-items:center; 
+    padding:20px;  
+    color:var(--cor1)
+}
+.photo-div picture{ 
+
+  border:4px solid var(--cor1);
+  width:300px;
+  height:300px;
+  border-radius:50%;
+}
+.photo-div img{ 
+    width:300px;
+    height:300px;
+    border-radius:50%;
+}
+.About-me{ 
+    display:flex;   
+    align-items:center;   
+    flex-direction: column;
+    justify-content: space-around;
+    padding:20px;   
+}
+.About-me h1{ 
+
+    font-size:2em; 
+    color:var(--cor1);
+    text-transform:uppercase;   
+}
+.About-me p{ 
+
+    font-size:1.2em; 
+    color:var(--cor3);
+    width:400px;   
+    text-align:center;  
+   
+}
+
+/* tecnologias */ 
+
+.Tecnologias{ 
+    background-color:var(--cor2);  
+    width:900px;   
+    margin:auto;    
+    display:flex;   
+    padding:20px;    
+    justify-content: space-around;
+    flex-direction:column;
+    border-radius:20px;
+    align-items:center;  
+
+}
+.tec-me {
+    padding:20px; 
+
+}
+
+.tec-me h1 {
+    font-size:2em; 
+    color:var(--cor5);
+    text-transform:uppercase; 
+    text-align:center;
+
+}
+.btn-tec{
+    padding:20px;  
+    margin:auto; 
+ 
+  
+
+}
+.btn-tec button{
+   
+    border:2px solid var(--cor5); 
+    display:inline-block; 
+    padding:10px;
+    text-align:center;   
+    color:var(--cor5);
+    background-color:var(--cor1);
+    height:100px;
+    width:100px; 
+    font-size:3em;
+    margin:10px;
+
+}
+.btn-tec button:hover{
+    color:var(--cor1); 
+    background:var(--cor5);
+    border:2px solid var(--cor1); 
+}
+
+/* Projetos */ 
+
+.projetos{ 
+        margin:auto;   
+        width:900px; 
+        padding:20px;
+        background-color:var(--cor5);
+        display:flex;   
+        align-items:center;   
+        flex-direction:column;  
+        justify-content: space-around;
+        margin-bottom:50px;
+}
+.pj-me{ 
+    text-align:center;   
+    padding:20px;   
+}
+.pj-me h1{ 
+   
+    font-size:2em; 
+    color:var(--cor1);   
+    text-transform:uppercase; 
+}
+.card-div{
+    padding:20px;   
+
+}
+.card-pj{ 
+    background-color:var(--cor1); 
+    padding:20px;   
+    text-align:center;  
+    border-radius:20px; 
+   
+}
+.card-pj:hover{ 
+
+   opacity:0.8;   
+}
+.card-pj h1{ 
+    color:var(--cor5); 
+    padding:20px;   
+    text-align:center;  
+    font-size:1.5em; 
+    text-transform:uppercase; 
+}
+.card-pj p{ 
+    color:var(--cor5); 
+    padding:20px;   
+    text-align:center;  
+    font-size:1.2em; 
+    width:200px;
+    
+}
+.card-pj button{ 
+    color:var(--cor4); 
+    padding:10px;   
+    text-align:center;  
+    font-size:1.5em; 
+    border-radius:20px; 
+    background-color:var(--cor5);
+    border:solid 2px var(--cor4);
+    margin-bottom:20px;
+    cursor:pointer;
+}
+.card-pj button:hover{ 
+    color:var(--cor3); 
+    opacity:1;
+
+}
+
+/* contatos e rodapé */ 
+
+
+#baseboard { 
+    width:100%; 
+    background-color: var(--cor3);   
+    border-top:solid 4px var(--cor1);
+}
+.contatos{ 
+    color:var(--cor5); 
+    padding:20px; 
+    width:900px; 
+    margin:auto;
+    display:flex; 
+    justify-content:space-around; 
+}
+.contatos h1 {
+
+    text-align:left;
+    font-size:2em;
+    padding:20px;
+}
+.contatos button { 
+  
+    font-size:2em;
+    margin:20px;
+    padding:5px;
+    text-align:center;
+    color:var(--cor5); 
+    background-color:var(--cor3); 
+    border:none;
+   
+    
+}
+.contatos button:hover{ 
+    cursor:pointer;
+}
+.copy{
+    width:900px;
+    text-align:center;
+    color:var(--cor5);
+    padding:20px;
+    margin:auto; 
+}
+
+
+
+
+
