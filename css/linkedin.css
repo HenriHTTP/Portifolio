@@ -48,7 +48,8 @@
 
      
 
-}.information button p{ 
+}
+.information button p{ 
 
     display:inline; 
 
@@ -91,5 +92,14 @@
     .slide-bar{
         width:80%;
     }
+    .information button{ 
+   
+        width:250px;
+      
+    
+         
+    
+    }
+
 
 }

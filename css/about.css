@@ -77,6 +77,31 @@
         height:250px;
         border-radius:50%;
     }
+    .About-me{ 
+        width:250px;
+        display:block;
+        margin:auto;
+
+    }
+    .About-me p{ 
+       
+        width:200px;
+        margin:auto;
+        padding:20px;
+        font-size:1em;
+
+        
+    }
+
+    .About-me h1{ 
+
+        padding:20px;
+        text-align:center; 
+        font-size:1.5em; 
+        
+
+        
+    }
      
       
 }
