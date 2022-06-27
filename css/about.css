@@ -54,3 +54,29 @@
 
 /* tecnologias */ 
 
+@media (min-width:299.98px) and (max-width:566.98px) {
+    .sobre{ 
+        display:block;
+        width:80%;  
+    }
+    .photo-div{ 
+        margin:auto;
+        width:250px;
+        padding-bottom:50px; 
+    }
+    .photo-div picture {
+
+        width:250px;
+        height:250px;
+        border-radius:50%;
+        margin:auto;
+
+    }
+    .photo-div img{ 
+        width:250px;
+        height:250px;
+        border-radius:50%;
+    }
+     
+      
+}
