@@ -1,0 +1,50 @@
+.Tecnologias{ 
+    background-color:var(--cor5);  
+    width:900px;   
+    margin:auto;    
+    display:flex;   
+    padding:20px;    
+    justify-content: space-around;
+    flex-direction:column;
+    border-radius:20px;
+    align-items:center;  
+
+}
+.tec-me {
+    padding:20px; 
+
+}
+
+.tec-me h1 {
+    font-size:2em; 
+    color:var(--cor3);
+    text-transform:uppercase; 
+    text-align:center;
+
+}
+.btn-tec{
+    padding:20px;  
+    margin:auto; 
+ 
+  
+
+}
+.btn-tec button{
+   
+    border:2px solid var(--cor5); 
+    display:inline-block; 
+    padding:10px;
+    text-align:center;   
+    color:var(--cor5);
+    background-color:var(--cor1);
+    height:100px;
+    width:100px; 
+    font-size:3em;
+    margin:10px;
+
+}
+.btn-tec button:hover{
+    color:var(--cor1); 
+    background:var(--cor5);
+    border:2px solid var(--cor1); 
+}
