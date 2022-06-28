@@ -65,3 +65,26 @@ color:var(--cor3);
 opacity:1;
 
 }
+@media (min-width:299.98px) and (max-width:566.98px){
+
+    .projetos{
+        display:block;
+        width:80%; 
+
+    }
+    .card-pj{
+        width:200px; 
+        margin:auto;
+    }
+    .pj-me h1{ 
+        width:200px;
+        margin:auto;
+        text-align:center;
+        font-size:1.5em;
+    }
+
+
+}
+
+
+   

@@ -48,3 +48,19 @@
     background:var(--cor5);
     border:2px solid var(--cor1); 
 }
+
+@media (min-width:299.98px) and (max-width:566.98px){
+
+
+    .Tecnologias{
+        display:block;
+        width:80%; 
+        margin:auto;  
+    }    
+    .tec-me h1{ 
+        font-size:1.5em; 
+        width:250px; 
+        margin:auto;
+        text-align:center;
+    }    
+    }
