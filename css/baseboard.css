@@ -1,5 +1,5 @@
 #baseboard { 
-    width:100%; 
+    max-width:100%; 
     background-color: var(--cor3);   
     border-top:solid 4px var(--cor1);
 }
@@ -45,4 +45,32 @@
     color:var(--cor5);
     padding:20px;
     margin:auto; 
+}
+
+@media (min-width:299.98px) and (max-width:566.98px) {
+
+    .contatos{ 
+        display:block; 
+        width:80%;
+        margin:auto; 
+
+
+    }
+    .contatos h1 {
+
+        text-align:center;
+        font-size:1.5em;
+        padding:10px;
+        width:100px;
+        margin:auto;
+    }
+    .copy{
+        width:80%; 
+        display:block;   
+    }
+    .contatos button{
+        display:block;
+        margin:auto;
+        margin-top:20px;
+    }
 }

@@ -27,57 +27,15 @@
 
 
 /* contatos e rodapé */ 
+@media (min-width:299.98px) and (max-width:566.98px) {
 
-
-#baseboard { 
-    width:100%; 
-    background-color: var(--cor3);   
-    border-top:solid 4px var(--cor1);
-}
-.contatos{ 
-    color:var(--cor5); 
-    padding:20px; 
-    width:900px; 
-    margin:auto;
-    display:flex; 
-    flex-direction:column;
-    align-items:center;
-}
-.contatos h1 {
-
-    text-align:left;
-    font-size:2em;
-    padding:20px;
-}
-.contatos button { 
-  
-    font-size:1.4em;
-    margin:20px;
-    padding:5px;
-    text-align:center;
-    color:var(--cor5); 
-    background-color:var(--cor3); 
-    border:none;
-   
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     
-}
-.contatos button p{ 
-  
-  display:inline; 
-  padding-left:10px;
-    
-}
-.contatos button:hover{ 
-    cursor:pointer;
-}
-.copy{
-    width:900px;
-    text-align:center;
-    color:var(--cor5);
-    padding:20px;
-    margin:auto; 
-}
 
+}
 
 
 
